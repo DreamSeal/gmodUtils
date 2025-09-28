@@ -1,17 +1,15 @@
 module gmodUtils
 
-go 1.23.0
+go 1.18
 
-toolchain go1.24.7
-
-require github.com/eatmoreapple/openwechat v1.4.10
+require github.com/xuri/excelize/v2 v2.7.0
 
 require (
+	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826 // indirect
 	github.com/richardlehane/mscfb v1.0.4 // indirect
 	github.com/richardlehane/msoleps v1.0.4 // indirect
-	github.com/tiendc/go-deepcopy v1.6.0 // indirect
+	github.com/stretchr/testify v1.9.0 // indirect
 	github.com/xuri/efp v0.0.1 // indirect
-	github.com/xuri/excelize/v2 v2.9.1 // indirect
 	github.com/xuri/nfp v0.0.1 // indirect
 	golang.org/x/crypto v0.38.0 // indirect
 	golang.org/x/net v0.40.0 // indirect
