@@ -14,8 +14,9 @@ import (
 
 func Pic() {
 	// 配置参数
-	imageFolder := "C:/Users/73547/Desktop/py/allPic" // 图片文件夹路径
-	excelFile := imageFolder + "/image_names.xlsx"    // 输出的Excel文件名
+	//imageFolder := "C:/Users/73547/Desktop/py/allPic" // 图片文件夹路径
+	imageFolder := "C:/Users/73547/Desktop/py/rename/20250928/wuxing"
+	excelFile := imageFolder + "/image_names.xlsx" // 输出的Excel文件名
 
 	// 创建Excel文件
 	f := excelize.NewFile()
