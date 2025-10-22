@@ -12,7 +12,8 @@ import (
 
 func Resize() {
 	// 获取用户输入的目录
-	sourceDir := "C:/Users/73547/Desktop/py/rename/全部图片/全部头像/全部" // 当前目录
+	//sourceDir := "C:/Users/73547/Desktop/py/rename/全部图片/全部头像/全部" // 当前目录
+	sourceDir := "C:/Users/73547/Desktop/py/rename/test"
 
 	// 检查目录是否存在
 	if _, err := os.Stat(sourceDir); os.IsNotExist(err) {
